@@ -11,7 +11,7 @@ function main(){
 
     let input = document.getElementById("input").value;
     let output = document.getElementById("output")
-        output.innerText = identifyReference(input, bookList)
+        output.innerHTML = identifyReference(input, bookList)
         //identify Reference is in the reference translation file
 
 }
